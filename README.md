@@ -66,3 +66,15 @@ Queried the ServiceNow User Groups directory (`sys_user_group`) using a custom n
 * **Search Filter Applied:** `Name >= IT Support`
 * **Filtered Results:** 25 matching groups displayed
 * **Verified Group Record:** `IT Support Staff` (Manager: Andrew Jackson | Active: `true` | Description: `IT Support staff for mannilabs.com`)
+
+
+### 6. Group Member Mapping (Slushbucket Configuration)
+Utilized the ServiceNow slushbucket interface to assign technician account `Aidan McCann` from the global user directory to the `IT Support Staff` group queue.
+
+<img width="2495" height="1546" alt="image" src="https://github.com/user-attachments/assets/b6e4bc8b-8173-4ab7-8578-31c21190d940" />
+
+* **Interface:** Group Member - Edit Members (`sys_m2m_template`)
+* **Target Group:** IT Support Staff
+* **Selected Member:** Aidan McCann
+* **Action:** Moved user record from the global Collection bucket into the active Group Members List to establish queue membership.
+
