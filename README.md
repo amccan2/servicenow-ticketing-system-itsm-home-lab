@@ -148,5 +148,53 @@ Finalized visual aesthetics and presentation properties for the `Week 1: Inciden
 * **Operational Scope:** Standardizes chart dimensions and color formatting to ensure seamless integration into executive IT dashboards.
 
 
+### 15. Active Incident Queue Audit & Status Verification
+Navigated the global active incident queue (`incident_list.do`) to audit ticket lifecycles, assignment statuses, and current operational states across the instance.
+
+<img width="975" height="603" alt="image" src="https://github.com/user-attachments/assets/f824e0c5-0b98-4ff3-a53e-5b74b469fb75" />
+
+* **Table View:** Active Incidents (`All > Active = true`)
+* **Ticket Monitored:** `INC0010001` (AD Account Locked)
+* **Updated State:** `In Progress`
+* **Assignment Audit:** Confirms queue ownership under `IT Support Staff` and primary technician assignment to `Aidan McCann`.
+
+
+### 16. Incident Resolution & Lifecycle Closure
+Completed the Incident Management lifecycle for ticket `INC0010001`, transitioning the state to `Resolved` after executing remediation steps and documenting resolution notes.
+
+<img width="975" height="603" alt="image" src="https://github.com/user-attachments/assets/e17d85e6-ecd6-4663-a593-6baeec900287" />
+
+* **Incident Record:** `INC0010001` (AD Account Locked)
+* **Lifecycle State:** `Resolved` (transitioned from `In Progress`)
+* **Resolution Code:** `Solution provided`
+* **Resolution Notes:** `Unlocked AD Account via Active Directory Users and Computers; reset password and advised on lockout policy; verified login success.`
+* **Operational Result:** Restored user service, closed out the active ticket queue item, and logged audit history for SLA compliance tracking.
+
+
+### 17. Incident Activity Stream & Audit Trail Verification
+Audited the historical activity stream for incident `INC0010001` to verify complete system logging of state transitions, technician assignment changes, and resolution entries.
+
+<img width="975" height="602" alt="image" src="https://github.com/user-attachments/assets/561b870b-7e21-4fc7-b108-f659fce26296" />
+
+* **Incident Number:** `INC0010001` (AD Account Locked)
+* **View Tab:** `Notes` -> `Activities`
+* **Logged Event 1 (Initial Assignment):** Captured state transition to `In Progress`, technician routing to `Aidan McCann`, and priority mapping (`5 - Planning`).
+* **Logged Event 2 (Lifecycle Resolution):** Captured final state transition from `In Progress` to `Resolved`, resolution code (`Solution provided`), and technician remediation notes.
+* **Compliance Impact:** Validates ITSM audit trail requirements by confirming every administrative and operational field change is timestamped and immutable.
+
+
+### 18. Queue Reconciliation & Resolved Incident State Audit
+Re-audited the global incident list queue (`All > Active = true`) to confirm real-time queue reconciliation after ticket resolution.
+
+<img width="975" height="602" alt="image" src="https://github.com/user-attachments/assets/41cd3bd8-2133-4e83-95de-70a35631e50b" />
+
+* **Table View:** Active Incident Directory (`incident_list.do`)
+* **Verified Record:** `INC0010001` (AD Account Locked)
+* **Final Queue State:** `Resolved`
+* **Operational Verification:** Validates that the state change correctly propagated to the central queue view, maintaining accurate ticket ownership (`IT Support Staff` / `Aidan McCann`) and full operational visibility across the team.
+
+
+
+
 
 
