@@ -24,6 +24,7 @@ Configured platform access by provisioning a new support technician account (`Ai
 * **Inheritance Status:** `Inherited = true` (Confirms Role-Based Access Control / RBAC best practices)
 
 
+
 ### 2. User Directory Verification & Account Confirmation
 Verified successful creation and active status of the newly provisioned technician account within the ServiceNow global User directory (`sys_user`).
 
@@ -35,7 +36,8 @@ Verified successful creation and active status of the newly provisioned technici
 * **System Notification:** "Primary email device created for Aidan McCann"
 
 
-### 4. Custom Assignment Group Provisioning
+
+### 3. Custom Assignment Group Provisioning
 Configured and created a dedicated support assignment group within ServiceNow to handle incoming helpdesk and infrastructure workload routing.
 
 <img width="2495" height="1542" alt="image" src="https://github.com/user-attachments/assets/59ff31b8-5e65-43bd-81d3-4544025d9b52" />
@@ -46,7 +48,8 @@ Configured and created a dedicated support assignment group within ServiceNow to
 * **Functional Scope:** Serves as the primary operational group queue for incident intake, triage, and escalation routing.
 
 
-### 5. Group Record Configuration & Role Auditing
+
+### 4. Group Record Configuration & Role Auditing
 Opened the active `IT Support Staff` group record to verify group metadata and inspect assigned platform roles (`sys_user_group`).
 
 <img width="2496" height="1540" alt="image" src="https://github.com/user-attachments/assets/8c80c0f2-9cff-4e5f-bb5a-b1928ea4601a" />
@@ -57,7 +60,8 @@ Opened the active `IT Support Staff` group record to verify group metadata and i
 * **Operational Result:** Provisioned technician account to receive and manage incidents assigned to the IT Support Staff group.
 
 
-### 6. User Groups Directory Verification
+
+### 5. User Groups Directory Verification
 Queried the ServiceNow User Groups directory (`sys_user_group`) using a custom name filter (`Name >= IT Support`) to verify active system support groups and confirm successful registration of the newly created team.
 
 <img width="2495" height="1541" alt="image" src="https://github.com/user-attachments/assets/d7dcdd11-950b-4ed1-b070-f68e9943b60e" />
