@@ -24,7 +24,6 @@ Configured platform access by provisioning a new support technician account (`Ai
 * **Inheritance Status:** `Inherited = true` (Confirms Role-Based Access Control / RBAC best practices)
 
 
-
 ### 2. User Directory Verification & Account Confirmation
 Verified successful creation and active status of the newly provisioned technician account within the ServiceNow global User directory (`sys_user`).
 
@@ -34,7 +33,6 @@ Verified successful creation and active status of the newly provisioned technici
 * **Provisioned Account:** `Aidan.McCann` (Aidan McCann)
 * **Status:** Active (`true`)
 * **System Notification:** "Primary email device created for Aidan McCann"
-
 
 
 ### 3. Custom Assignment Group Provisioning
@@ -48,7 +46,6 @@ Configured and created a dedicated support assignment group within ServiceNow to
 * **Functional Scope:** Serves as the primary operational group queue for incident intake, triage, and escalation routing.
 
 
-
 ### 4. Group Record Configuration & Role Auditing
 Opened the active `IT Support Staff` group record to verify group metadata and inspect assigned platform roles (`sys_user_group`).
 
@@ -58,7 +55,6 @@ Opened the active `IT Support Staff` group record to verify group metadata and i
 * **Related List View:** `Group Members (1)` tab
 * **Assigned Member:** Aidan McCann (`Aidan.McCann`)
 * **Operational Result:** Provisioned technician account to receive and manage incidents assigned to the IT Support Staff group.
-
 
 
 ### 5. User Groups Directory Verification
