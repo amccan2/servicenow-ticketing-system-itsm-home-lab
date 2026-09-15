@@ -18,6 +18,7 @@ Configured platform access by provisioning a new support technician account (`Ai
 * **Group Count:** 2 Active Group Memberships
 
 <img width="2495" height="1539" alt="image" src="https://github.com/user-attachments/assets/628ed294-b3e7-4e12-97f1-1d8d595ccc12" />
+<img width="2496" height="1541" alt="image" src="https://github.com/user-attachments/assets/8b88d206-af9f-45c8-a415-c80ff2fa7306" />
 
 * **Inherited Roles Count:** 44 platform roles automatically assigned via group memberships
 * **Key Role Inherited:** `itil` (Grants full IT Service Management incident creation, update, and resolution capabilities)
