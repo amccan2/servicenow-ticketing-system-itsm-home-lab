@@ -23,10 +23,10 @@ Verified successful creation and active status of the newly provisioned technici
 * **System Notification:** "Primary email device created for Aidan McCann"
 
 
-### 3. User Groups Directory Verification
+### 4. User Groups Directory Verification
 Queried the ServiceNow User Groups directory (`sys_user_group`) using a custom name filter (`Name >= IT Support`) to verify active system support groups and confirm successful registration of the newly created team.
 
-<img width="1024" height="634" alt="image" src="https://github.com/user-attachments/assets/d42d5344-cabf-4183-aff3-6d84868db5ef" />
+<img width="2495" height="1541" alt="image" src="https://github.com/user-attachments/assets/d7dcdd11-950b-4ed1-b070-f68e9943b60e" />
 
 * **Table Accessed:** User Groups (`sys_user_group`)
 * **Search Filter Applied:** `Name >= IT Support`
