@@ -32,12 +32,12 @@ Configured and created a dedicated support assignment group within ServiceNow to
 ### 5. Group Record Configuration & Role Auditing
 Opened the active `IT Support Staff` group record to verify group metadata and inspect assigned platform roles (`sys_user_group`).
 
-<img width="2494" height="1540" alt="image" src="https://github.com/user-attachments/assets/21da1588-c5ce-456e-9fd1-ee042ea0227f" />
+<img width="2496" height="1540" alt="image" src="https://github.com/user-attachments/assets/8c80c0f2-9cff-4e5f-bb5a-b1928ea4601a" />
 
 * **Group Record:** `IT Support Staff`
-* **Manager:** Andrew Jackson
-* **Related List View:** `Roles` tab
-* **Configuration State:** Saved record ready for role mapping and user membership assignment
+* **Related List View:** `Group Members (1)` tab
+* **Assigned Member:** Aidan McCann (`Aidan.McCann`)
+* **Operational Result:** Provisioned technician account to receive and manage incidents assigned to the IT Support Staff group.
 
 
 ### 6. User Groups Directory Verification
