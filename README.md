@@ -101,3 +101,52 @@ Navigated the ServiceNow Incident Directory (`incident`) using Self-Service queu
 * **Query Filter Applied:** `Caller = System Administrator > Active = true > Universal Request is empty`
 * **Operational Scope:** Verifies existing caller ticket history prior to logging new ITSM incidents.
 
+
+### 11. Incident Ticket Logging & Workload Assignment
+Logged a new operational incident record (`INC0010001`) to document an Active Directory authentication issue, routing ownership to the designated support group and assigned technician.
+
+<img width="975" height="603" alt="image" src="https://github.com/user-attachments/assets/d474e1a2-20b2-4afa-823b-bbb4df7ddb31" />
+
+* **Incident Number:** `INC0010001`
+* **Caller / Category:** Andrew Jackson | `Inquiry / Help`
+* **Short Description:** AD Account Locked
+* **Detailed Description:** `User reports login failure on workstation; likely AD lockout from failed attempts this morning.`
+* **Assignment Routing:** Assigned Group: `IT Support Staff` | Assigned To: `Aidan McCann`
+* **Calculated Priority:** `5 - Planning` (`Impact: 3 - Low` | `Urgency: 3 - Low`)
+
+
+### 12. Custom Incident Report Creation
+Configured a time-bounded custom report using the ServiceNow Report Builder (`sys_report_template`) to track operational incident volume and workload distribution.
+
+<img width="975" height="606" alt="image" src="https://github.com/user-attachments/assets/48675b47-9188-4ed2-a4d3-98276cea41df" />
+
+* **Report Title:** `Week 1: Incidents`
+* **Source Table:** Incident (`incident`)
+* **Filter Conditions:** `Created between 2026-09-14 00:00:00 and 2026-09-18 00:00:00`
+* **Operational Scope:** Filters incident dataset to monitor weekly ticket volume, state changes (`In Progress`), and operational assignment distribution (`IT Support Staff`).
+
+
+### 13. Report Visual Data Aggregation
+Configured visualization rules and grouping parameters for the `Week 1: Incidents` report to render an executive-facing bar chart.
+
+<img width="975" height="604" alt="image" src="https://github.com/user-attachments/assets/7ccad360-2fa4-45ef-a702-92025a40b425" />
+
+* **Report Title:** `Week 1: Incidents`
+* **Grouping & Aggregation:** Grouped by `Active` | Aggregation: `Count`
+* **Visualization Output:** Generates a bar chart mapping incident volume by active state (`true = 1`) across the filtered date range.
+* **Operational Scope:** Provides management with clear visibility into open vs. closed ticket metrics for SLA tracking and performance reporting
+
+
+### 14. Report Styling & Presentation Formatting
+Finalized visual aesthetics and presentation properties for the `Week 1: Incidents` chart prior to dashboard deployment and sharing.
+
+<img width="975" height="604" alt="image" src="https://github.com/user-attachments/assets/e4e5a696-5e5e-43be-869e-a4e79d6c3c35" />
+
+* **Report Title:** `Week 1: Incidents`
+* **Configuration Step:** `Style` tab -> `General` settings
+* **Visual Parameters:** Chart Color: `Use one color` | Chart Size: `Small` | Decimal Precision: `2`
+* **Operational Scope:** Standardizes chart dimensions and color formatting to ensure seamless integration into executive IT dashboards.
+
+
+
+
