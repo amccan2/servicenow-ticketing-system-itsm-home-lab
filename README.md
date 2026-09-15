@@ -3,6 +3,7 @@ ServiceNow ITSM lab demonstrating platform access control, user role assignments
 
 ### 1. User Provisioning & Account Creation
 Configured platform access by provisioning a new support technician account (`Aidan.McCann`) as a Help Desk Technician in the IT Department.
+
 <img width="975" height="604" alt="image" src="https://github.com/user-attachments/assets/1a075ab5-566a-48a7-b705-3fa42c42ed5b" />
 
 * **User ID:** Aidan.McCann
