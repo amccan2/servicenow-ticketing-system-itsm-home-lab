@@ -11,6 +11,18 @@ Configured platform access by provisioning a new support technician account (`Ai
 * **Department:** IT
 * **Account Status:** Active
 
+<img width="2497" height="1543" alt="image" src="https://github.com/user-attachments/assets/9935e78c-577f-4ed3-bd94-aeaaa24b62d6" />
+
+* **Account Audited:** `Aidan.McCann` (Aidan McCann)
+* **Assigned Groups:** `IT Support Staff`, `Conditional Script Writer`
+* **Group Count:** 2 Active Group Memberships
+
+<img width="2495" height="1539" alt="image" src="https://github.com/user-attachments/assets/628ed294-b3e7-4e12-97f1-1d8d595ccc12" />
+
+* **Inherited Roles Count:** 44 platform roles automatically assigned via group memberships
+* **Key Role Inherited:** `itil` (Grants full IT Service Management incident creation, update, and resolution capabilities)
+* **Inheritance Status:** `Inherited = true` (Confirms Role-Based Access Control / RBAC best practices)
+
 
 ### 2. User Directory Verification & Account Confirmation
 Verified successful creation and active status of the newly provisioned technician account within the ServiceNow global User directory (`sys_user`).
