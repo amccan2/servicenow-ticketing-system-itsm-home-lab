@@ -23,7 +23,24 @@ Verified successful creation and active status of the newly provisioned technici
 * **System Notification:** "Primary email device created for Aidan McCann"
 
 
-### 4. User Groups Directory Verification
+### 4. Custom Assignment Group Provisioning
+Configured and created a dedicated support assignment group within ServiceNow to handle incoming helpdesk and infrastructure workload routing.
+
+
+
+
+### 5. Group Record Configuration & Role Auditing
+Opened the active `IT Support Staff` group record to verify group metadata and inspect assigned platform roles (`sys_user_group`).
+
+<img width="2494" height="1540" alt="image" src="https://github.com/user-attachments/assets/21da1588-c5ce-456e-9fd1-ee042ea0227f" />
+
+* **Group Record:** `IT Support Staff`
+* **Manager:** Andrew Jackson
+* **Related List View:** `Roles` tab
+* **Configuration State:** Saved record ready for role mapping and user membership assignment
+
+
+### 6. User Groups Directory Verification
 Queried the ServiceNow User Groups directory (`sys_user_group`) using a custom name filter (`Name >= IT Support`) to verify active system support groups and confirm successful registration of the newly created team.
 
 <img width="2495" height="1541" alt="image" src="https://github.com/user-attachments/assets/d7dcdd11-950b-4ed1-b070-f68e9943b60e" />
