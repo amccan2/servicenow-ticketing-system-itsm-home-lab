@@ -26,6 +26,7 @@ Verified successful creation and active status of the newly provisioned technici
 ### 4. Custom Assignment Group Provisioning
 Configured and created a dedicated support assignment group within ServiceNow to handle incoming helpdesk and infrastructure workload routing.
 
+<img width="975" height="599" alt="image" src="https://github.com/user-attachments/assets/3f67bf66-eb77-404c-a761-06bf40978ef9" />
 
 
 
