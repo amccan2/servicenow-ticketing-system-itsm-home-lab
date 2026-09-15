@@ -10,3 +10,14 @@ Configured platform access by provisioning a new support technician account (`Ai
 * **Title:** Help Desk Technician
 * **Department:** IT
 * **Account Status:** Active
+
+
+### 2. User Directory Verification & Account Confirmation
+Verified successful creation and active status of the newly provisioned technician account within the ServiceNow global User directory (`sys_user`).
+
+<img width="975" height="603" alt="image" src="https://github.com/user-attachments/assets/92227710-5f7d-4faa-b89e-aaf91afe50a5" />
+
+* **Table Verified:** User Directory (`sys_user`)
+* **Provisioned Account:** `Aidan.McCann` (Aidan McCann)
+* **Status:** Active (`true`)
+* **System Notification:** "Primary email device created for Aidan McCann"
