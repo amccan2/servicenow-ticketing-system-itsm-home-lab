@@ -79,3 +79,25 @@ Utilized the ServiceNow slushbucket interface to assign technician account `Aida
 * **Selected Member:** Aidan McCann
 * **Action:** Moved user record from the global Collection bucket into the active Group Members List to establish queue membership.
 
+
+### 9. Incident Record Inspection & State Auditing
+Opened incident record `INC0008111` to evaluate active ticket metadata, urgency categorization, and caller activity history within the Self-Service interface.
+
+<img width="2496" height="1543" alt="image" src="https://github.com/user-attachments/assets/9a20115b-a18f-481a-87f0-bf2f57c2524d" />
+
+* **Incident Number:** `INC0008111`
+* **Caller:** System Administrator
+* **State / Urgency:** `New` | `3 - Low`
+* **Activity Stream:** Audited system-generated field changes, verifying initial priority calculation (`5 - Planning`) and logged timestamps.
+
+
+### 10. Incident Directory Navigation & Queue Filtering
+Navigated the ServiceNow Incident Directory (`incident`) using Self-Service queue filters to review active ticket workloads caller-specific query conditions.
+
+<img width="2494" height="1544" alt="image" src="https://github.com/user-attachments/assets/92fa0b56-e83f-4a72-8d34-5fcf79a76085" />
+
+* **Table Accessed:** Incident (`incident`)
+* **View Mode:** Self Service
+* **Query Filter Applied:** `Caller = System Administrator > Active = true > Universal Request is empty`
+* **Operational Scope:** Verifies existing caller ticket history prior to logging new ITSM incidents.
+
