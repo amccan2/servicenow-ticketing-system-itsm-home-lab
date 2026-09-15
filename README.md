@@ -15,7 +15,7 @@ Configured platform access by provisioning a new support technician account (`Ai
 ### 2. User Directory Verification & Account Confirmation
 Verified successful creation and active status of the newly provisioned technician account within the ServiceNow global User directory (`sys_user`).
 
-<img width="624" height="386" alt="Picture2" src="https://github.com/user-attachments/assets/f270e59f-5d8a-4096-8e95-e1fe0e3dd831" />
+<img width="2497" height="1541" alt="image" src="https://github.com/user-attachments/assets/12a09352-3a9e-4cd2-8185-649508f8e806" />
 
 * **Table Verified:** User Directory (`sys_user`)
 * **Provisioned Account:** `Aidan.McCann` (Aidan McCann)
